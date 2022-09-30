@@ -11,7 +11,7 @@ My main design plan is going to be a initial website splash page with our missio
 ### Bug Testing
 
 ### Development
-In the future if I decide to continue developing this website I would like to get a custom domain for an easy and rememberable URL, however for the time being I will front this website with GitHub's own hosting features. I do not expect many issues with this however in the past I have ran into some issues with pictures not loading but I believe to have found a workaround so I wont fall into the same issues with this project. 
+In the future if I decide to continue developing this website I would like to get a custom domain for an easy and rememberable URL, however for the time being I will front this website with GitHub's own hosting features. I do not expect many issues with this however in the past I have ran into some issues with pictures not loading but I believe to have found a workaround so I wont fall into the same issues with this project. <br>
 ( In all my time looking at other peoples project's and even looking at some employment based projects from the likes of senior devs at Google, I have even asked in my readme files as to what goes into this section however I was never told.. not even during my writeup on what the project was lacking before i resubmitted, this is the only place that uses aor even asks for a development section in the readme file and since I do not know what is the main intention for this section at my final project, this is the best I believe I can do since I am still in the dark as to what this section is used for as I don't believe outside of this course it has any purpose. )
 
 ### Credits
