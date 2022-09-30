@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'django.contrib.admin',
     'home',
+    'products',
 ]
 
 MIDDLEWARE = [
@@ -91,7 +92,7 @@ ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-kylem99-quickmeals-2pi2fhlzy33.ws-eu69.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-kylem99-quickmeals-2pi2fhlzy33.ws-eu67.gitpod.io']
 
 
 

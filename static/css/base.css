@@ -67,6 +67,7 @@ body {
 
 .bg-orange {
     background: #f76806 !important;
+    max-width: 100%;
 }
 
 /* Media */

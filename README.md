@@ -18,4 +18,5 @@ In the future if I decide to continue developing this website I would like to ge
 ( In all my time looking at other peoples project's and even looking at some employment based projects from the likes of senior devs at Google, I have even asked in my readme files as to what goes into this section however I was never told.. not even during my writeup on what the project was lacking before i resubmitted, this is the only place that uses aor even asks for a development section in the readme file and since I do not know what is the main intention for this section at my final project, this is the best I believe I can do since I am still in the dark as to what this section is used for as I don't believe outside of this course it has any purpose. )
 
 ### Credits
-Initial template taken from Code Institute.
+Initial template taken from Code Institute. <br>
+All of the meals and descriptions about the food has been taken from bbcgoodfood. <br>
