@@ -95,7 +95,6 @@ LOGIN_REDIRECT_URL = '/'
 CSRF_TRUSTED_ORIGINS = ['https://8000-kylem99-quickmeals-2pi2fhlzy33.ws-eu67.gitpod.io']
 
 
-
 WSGI_APPLICATION = 'quick_meals.wsgi.application'
 
 
