@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center fixed;
+    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #444;
@@ -29,13 +29,13 @@ body {
 
 .shop-now-button {
     background: black;
-    color: aliceblue;
+    color: white;
     min-width: 260px;
 }
 
 .btn-black {
     background: black;
-    color: aliceblue;
+    color: white;
 }
 
 .shop-now-button:hover,
@@ -44,26 +44,39 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: black;
-    color: aliceblue;
+    background: #222;
+    color: white;
 }
 
 .text-black {
-    color: black !important;
+    color: #000 !important;
 }
 
 .border-black {
     border: 1px solid black !important;
 }
 
+.bg-black {
+    background: #000 !important;
+}
+
+.navbar-toggler-icon {
+    color: aliceblue;
+    background-color: #000 !important;
+}
+
+.bg-orange {
+    background: #f76806 !important;
+}
+
 /* Media */
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 80%;
+      max-width: 80%;
     }
-}
-
+  }
+  
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -72,8 +85,9 @@ body {
         left: 0;
         z-index: 1030;
     }
-
+  
     .header-container {
         padding-top: 164px;
     }
 }
+
