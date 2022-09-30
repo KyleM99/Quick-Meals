@@ -10,6 +10,7 @@ My main design plan is going to be a initial website splash page with our missio
 
 ### Bug Testing
 I have had some issues with Django when attempting to access the administrator panel but both of the times I ran into that issue was when I saved my file and came back to it the following day, so since I am primarily starting this repository over from scratch I hopefully won't run into this issue further.
+This has been incorrect, I am still having the same issue with Django logging into admin however it should all be set up correctly, [https://i.imgur.com/P799yaK.png]
 
 ### Development
 In the future if I decide to continue developing this website I would like to get a custom domain for an easy and rememberable URL, however for the time being I will front this website with GitHub's own hosting features. I do not expect many issues with this however in the past I have ran into some issues with pictures not loading but I believe to have found a workaround so I wont fall into the same issues with this project. <br>
