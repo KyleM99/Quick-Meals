@@ -2,6 +2,9 @@ Quick Meals is a new way of getting ready to cook meals to your front door with 
 
 
 ### Project Goals
+<br>
+For this project I have decided to choose the Project Idea 0 and bring my own idea to life. As many companies now adays are making it easily accessible to get healthy and nutritious meals to your door, I have decided to give that a try since I currently am trying to track what I eat. So with that in mind, I know that those website's in mind have had many years in development and I am just a team of one, I still want to try build a very basic design and give it a go and see if I can add certain elements that those other companies have to offer.
+<br>
 My main goal for this website is for the main function of selecting a meal which would be helpful for someone who is on a strict diet or someone who would like to start taking control of their meals to find a easy solution for choosing appetising meals from a selection of options. My primary intention isnt a make a "fitness community" however a review section for each specific meal choice and perhaps a feedback section would be something that I will be aiming to create once the initial website is functional and everything works up to my standard.
 
 ### Design
@@ -28,3 +31,7 @@ In the future if I decide to continue developing this website I would like to ge
 ### Credits
 Initial template taken from Code Institute. <br>
 All of the meals and descriptions about the food has been taken from bbcgoodfood. <br>
+Websites I took inspiration from : <br>
+[https://www.hellofresh.com/] <br>
+[https://www.dublinmeatcompany.com/index?l=en&gclid=Cj0KCQjwyt-ZBhCNARIsAKH1177kbNXozyaiPDGL6nIq3M2cAjCJS1ufZiURQjubWcFUR07LYqHb5vYaAn8HEALw_wcB] <br>
+[https://cleancutmeals.ie/]<br>
