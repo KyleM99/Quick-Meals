@@ -14,7 +14,7 @@
                 Subscription Plans
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="subscription-plans-link">
-                <a href="" class="dropdown-item">Subscription Deals</a>
+                <a href="{% url 'products' %}?category=subscription_plans" class="dropdown-item">Subscription Deals</a>
             </div>
         </li>
 
@@ -23,7 +23,7 @@
                 Sample Meals
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="sample-packs-link">
-                <a href="" class="dropdown-item">Sample Pack</a>
+                <a href="{% url 'products' %}?category=sample_meals" class="dropdown-item">Single Meals</a>
             </div>
         </li>
 
@@ -33,7 +33,7 @@
                 Single Meal Deals
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="once-off-meals-link">
-                <a href="" class="dropdown-item">Single Meals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Single Meals</a>
             </div>
         </li>
     </ul>
