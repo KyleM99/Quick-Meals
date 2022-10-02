@@ -25,6 +25,16 @@
     color: antiquewhite;
 }
 
+select,
+select option {
+    color: black;
+}
+
+select:invalid
+select option {
+    color: grey !important;
+}
+
 .fieldset-label {
     position: relative;
     right: .3rem;
