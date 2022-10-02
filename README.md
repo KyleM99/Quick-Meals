@@ -1,6 +1,5 @@
 Quick Meals is a new way of getting ready to cook meals to your front door with a simple click of a button. Quick Meals goal is to help you stay on top of your fitness routine with calorie and macro specific meals to directly help you get the nutrition you need whilst also giving you the correct portion size so that you feel full after every Quick Meal!
 
-
 ### Project Goals
 <br>
 For this project I have decided to choose the Project Idea 0 and bring my own idea to life. As many companies now adays are making it easily accessible to get healthy and nutritious meals to your door, I have decided to give that a try since I currently am trying to track what I eat. So with that in mind, I know that those website's in mind have had many years in development and I am just a team of one, I still want to try build a very basic design and give it a go and see if I can add certain elements that those other companies have to offer.
@@ -11,8 +10,7 @@ My main goal for this website is for the main function of selecting a meal which
 My main design plan is going to be a initial website splash page with our mission statement and what Quick Meals will be able to offer to subscription members, followed up by a simple and easy navigation bar for every user to be able to find something they are looking for, whether thats what meals we offer to what other people currently think about our products. <br>
 Main page layout is how I am currently liking it, and main functions to see the list of products is currently functional with only one bug that I can figure out before the project gets handed in. Not too confident on if all of the sites functionality at this point will be complete but will give it a go! <br>
 I was initially planning on adding a sort by price rating etc. dropdown to the top of each page, however after further thought and seeing it in place, and with the lack of products I have for my site I have decided against this. [https://i.imgur.com/hbhvAah.png] <br>
-
-
+Ultimately, I'm not very happy with the current design of the website, I would have liked to change the colours up a little bit, try and go for something bold instead of just primarily using aliceblue and black for everything.
 
 ### Bug Testing
 I have had some issues with Django when attempting to access the administrator panel but both of the times I ran into that issue was when I saved my file and came back to it the following day, so since I am primarily starting this repository over from scratch I hopefully won't run into this issue further. <br>
@@ -26,13 +24,10 @@ New bug found, when adding something to cart it sometimes will just refresh the 
 There is also a bug where if you add an item to the bag, the shipping cost is 5x the amount of the item, so I will try and locate the issue with this, if not fixed before handing it in, please ensure that you have added a couple items to the bag so that the delivery is free and the cost shows up correctly. (This has been fixed, for some reason the number i had the free delivery threshold set to was just multiplying the item cost, so now it is at a decent price for shipping, considering most of the time when you add two items you get free shipping.)<br>
 Cutting it close with the time I have left to submit this project, and my stripe payment code has been added to the website, however it just does not want to show the box for where I put in the card details. [https://i.imgur.com/gH3UMdq.png] <br>
 Unfortunately, I cannot continue to add stripe to this website as the code I have currently have added doesnt want to work, so there is no point in me continuing to add any additional code just for it to not show up since the main stripe card info doesnt show. <br>
-
-
-
-
+Sadly, this website isnt finished and not up to standard, if I had a bit more time I would have loved to finish the website off, but to be honest I don't want to miss this timeframe to hand in the project so I am handing it in a bit early even though it is unfinished.
 
 ### Development
-
+Main plan with development was to use Heroku. Other than that I would have tried to set up a custom domain name and link it to this github repository and make it so its just a clean url that runs through this repository. Since I have to leave this project unfinished.. there is not much more for me to write in regards to how I WOULD have pushed this site into development.
 
 ### Credits
 Initial template taken from Code Institute. <br>
