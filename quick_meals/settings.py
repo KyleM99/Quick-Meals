@@ -154,7 +154,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 FREE_DELIVERY_THRESHOLD = 35
-STANDARD_DELIVERY_PERCENTAGE = 5
+STANDARD_DELIVERY_PERCENTAGE = .5
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
