@@ -163,6 +163,10 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+#stripe - top three doesnt allow me to run the code.
+#STRIPE_CURRENCY = 'eur'
+#STRIPE_PUBLIC_KEY = os.gentenv('STRIPE_PUBLIC_KEY', '')
+#STRIPE_SECRET_KEY = os.gentenv('STRIPE_SECRET_KEY', '')
 FREE_DELIVERY_THRESHOLD = 35
 STANDARD_DELIVERY_PERCENTAGE = .5
 
