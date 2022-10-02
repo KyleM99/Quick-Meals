@@ -111,6 +111,17 @@ body {
     cursor: pointer;
 }
 
+.message-container {
+    position: fixed;
+    top: 62px;
+    right: 13px;
+    z-index: 99999999;
+}
+
+.toast-cust {
+    overflow: visible;
+}
+
 /* Colour code for the sort by dropdown that I don't want to have on the site anymore
 a.category-badge > span.badge:hover {
     color: aliceblue !important;
