@@ -32,6 +32,11 @@ Unfortunately, I cannot continue to add stripe to this website as the code I hav
 
 
 ### Development
+Well at this point I know this project will be a fail because of errors that I cannot seem to fix and are out of my control which is not really fair but here we are.
+I have tried ot explain that I cannot seem to get this website to deploy for the past two resubmissions yet I still get no solution or help and you dont seem to be able to grade this project without it working yet ive tried to explain that I cannot fix this issue. I have tried Heroku and github pages and both of them dont work...
+I have even tried opening gitpod after leaving this project for two weeks and running a server on port 8000 and I still get issues [https://i.imgur.com/4FIV3Io.png].
+And now that I have closed the projcet and rolled back a couple commits all my requirements.txt have been removed and adding them back to try and run a django server has stopped working, Heroku doesnt want to work now as well saying that I dont have things installed however when i go into terminal and try and install them it says that the requirement is already satisfied [https://i.imgur.com/PpfHI23.png] > [https://i.imgur.com/WfFRhZM.png] ... So to be honest I could do with some help but I dont the person reading this will do that and I will just get fail grade pretty instantly from when I submit this project again.
+So I am out of options and out of hope for this website unless the person who is grading this can figure it out, and if you can i will accept the fail grade, however with nothing working in my favour I have to resubmit the project with the same github pages because that is all I can do even though it doesnt work...
 
 
 ### Credits
