@@ -1,0 +1,1 @@
+web: gunicorn quick-meals.wsgi:application
