@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'checkout',
-
+    'storages',
     'crispy_forms',
 ]
 
@@ -127,6 +127,10 @@ else:
         }
     }
 
+# DATABASES = {
+#     'default': dj_database_url.parse('postgres://uwhttdeg:XqW6l1-zpKaQFL3jQilPONUoSETi4843@lucky.db.elephantsql.com/uwhttdeg')
+# }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
@@ -168,7 +172,22 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-#s tripe - top three doesnt allow me to run the code.
+if 'USE_AWS' in os.environ:
+    AWS_STORAGE_BUCKET_NAME = 'quick-meals'
+    AWS_S3_REGION_NAME = 'eu-central-1'
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRETACCESS_KEY_ID = os.environ.get('AWS_SECRETACCESS_KEY_ID')
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'
+    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
+
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}'
+
+# s tripe - top three doesnt allow me to run the code.
 # STRIPE_CURRENCY = 'eur'
 # STRIPE_PUBLIC_KEY = os.gentenv('STRIPE_PUBLIC_KEY', '')
 # STRIPE_SECRET_KEY = os.gentenv('STRIPE_SECRET_KEY', '')
@@ -180,7 +199,7 @@ STANDARD_DELIVERY_PERCENTAGE = .5
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
- # Add Render.com URL to allowed hosts
+# Add Render.com URL to allowed hosts
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:
     ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
