@@ -1,1 +1,1 @@
-web: gunicorn quick-meals.wsgi:application
+web: gunicorn quick_meals.wsgi:application
