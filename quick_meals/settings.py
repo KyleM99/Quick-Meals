@@ -101,7 +101,7 @@ SITE_ID = 1
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True
-ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+ACCOUNT_EMAIL_VERIFICATION = 'none'
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
@@ -129,12 +129,8 @@ WSGI_APPLICATION = 'quick_meals.wsgi.application'
 
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    'default': dj_database_url.parse('postgres://uwhttdeg:XqW6l1-zpKaQFL3jQilPONUoSETi4843@lucky.db.elephantsql.com/uwhttdeg')
 }
-
-# DATABASES = {
-#     'default': dj_database_url.parse('postgres://uwhttdeg:XqW6l1-zpKaQFL3jQilPONUoSETi4843@lucky.db.elephantsql.com/uwhttdeg')
-# }
 
 
 # Password validation
